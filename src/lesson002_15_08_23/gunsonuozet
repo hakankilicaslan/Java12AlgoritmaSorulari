@@ -1,0 +1,7 @@
+
+15.08.23 Berkin Yardımcı
+if - else if - else örnekleri çözüldü
+if - else if - else koşullarında tek satır varsa o zaman süslü parantez {} kullanmamıza gerek yok
+Koşulda if koşulu sağlanıyorsa diğerlerine girmiyor ama sağlanmıyorsa else if şartına giriyor.
+Else if koşulunu da sağlamazsa else komutunda ne varsa onu esas alıyor.
+İstediğimiz kadar else if koşulu girebiliyoruz.
