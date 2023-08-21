@@ -12,18 +12,18 @@ public class Question11 {
 		
 		double cevre, alan;
 				
-		System.out.println("Dairenin yaricapini giriniz:");
+		System.out.println("Dairenin yarıçapını giriniz:");
 		double yaricap=scanner.nextDouble();
 		
 		if(yaricap<=0)
-			System.out.println("Pozitif bir sayi girmelisiniz");
+			System.out.println("Pozitif bir sayı girmelisiniz");
 		else {
 		cevre=2*(3.14)*yaricap;
 		alan=(3.14)*yaricap*yaricap;
 		
 		//System.out.println("Dairenin alani: " +alan);
 		//System.out.println("Dairenin cevresi: "+cevre);
-		System.out.println("Dairenin alani: " +alan + "\n" + "Dairenin cevresi: "+cevre);
+		System.out.println("Dairenin alanı: " +alan + "\n" + "Dairenin çevresi: "+cevre);
 		}
   }
 }

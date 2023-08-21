@@ -2,7 +2,7 @@ package lesson002_15_08_23;
 
 import java.util.Scanner;
 
-public class Question6 {
+public class Question06 {
 
 	public static void main(String[] args) {
 		
@@ -13,21 +13,21 @@ public class Question6 {
 		
 		double vizeNotu, finalNotu, not;
 		
-		System.out.println("Vize puanini giriniz:");
+		System.out.println("Vize puanını giriniz:");
 		vizeNotu=scanner.nextDouble();
 		
-		System.out.println("Final puanini giriniz:");
+		System.out.println("Final puanını giriniz:");
 		finalNotu=scanner.nextDouble();
 				
 		if(vizeNotu<0 || vizeNotu>100 || finalNotu<0 || finalNotu>100) {
-			System.out.println("Yanlis puan girdiniz");
+			System.out.println("Yanlış puan girdiniz");
 		}else {
 			not=(vizeNotu*0.4)+(finalNotu*0.6);
 			
 			if(not>=50) 
-				System.out.println("Basarili ortalamaniz: " +not);
+				System.out.println("Başarılı ortalamanız: " +not);
 			else 
-				System.out.println("Basarisiz ortalamaniz: " +not);
+				System.out.println("Başarısız ortalamanız: " +not);
 		}
  }
 }

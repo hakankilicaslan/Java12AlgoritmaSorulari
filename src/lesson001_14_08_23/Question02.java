@@ -2,7 +2,7 @@ package lesson001_14_08_23;
 
 import java.util.Scanner;
 
-public class Question2 {
+public class Question02 {
 
 	public static void main(String[] args) {
 		
@@ -12,14 +12,14 @@ public class Question2 {
 		
 		int sayi1, sayi2, carpim;
 			
-		System.out.println("Ilk sayiyi giriniz:");
+		System.out.println("İlk sayıyı giriniz:");
 		sayi1=scanner.nextInt();
 		
-		System.out.println("Ikinci sayiyi giriniz:");
+		System.out.println("İkinci sayıyı giriniz:");
 		sayi2=scanner.nextInt();
 		
 		carpim=sayi1*sayi2;
 		
-		System.out.println("Sayilarin carpimi: " + carpim);
+		System.out.println("Sayıların çarpımı: " + carpim);
   }
 }

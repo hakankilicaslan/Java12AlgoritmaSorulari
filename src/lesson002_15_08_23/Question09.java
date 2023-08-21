@@ -2,7 +2,7 @@ package lesson002_15_08_23;
 
 import java.util.Scanner;
 
-public class Question9 {
+public class Question09 {
 
 	public static void main(String[] args) {
 		
@@ -11,21 +11,21 @@ public class Question9 {
 		
 		Scanner scanner=new Scanner(System.in);
 		
-		System.out.println("Not ortalamasini giriniz:");
+		System.out.println("Not ortalamasını giriniz:");
 		double ortalama=scanner.nextDouble();
 		
 		if(ortalama>=0 && ortalama<=100) {
 			if(ortalama>=90)
-				System.out.println("Notunuz:AA Gectiniz");
+				System.out.println("Notunuz:AA Geçtiniz");
 			else if(ortalama>=80)
-				System.out.println("Notunuz:BB Gectiniz");
+				System.out.println("Notunuz:BB Geçtiniz");
 			else if(ortalama>=70)
-				System.out.println("Notunuz:CC Gectiniz");
+				System.out.println("Notunuz:CC Geçtiniz");
 			else if(ortalama>=60)
-				System.out.println("Notunuz:DD Gectiniz");
+				System.out.println("Notunuz:DD Geçtiniz");
 			else if(ortalama<60)
-				System.out.println("Notunuz:FF Kaldiniz");
+				System.out.println("Notunuz:FF Kaldınız");
 		}else 
-			System.out.println("Ortalama 0 ile 100 arasinda olmali");
+			System.out.println("Ortalama 0 ile 100 arasında olmalı");
   }
 }

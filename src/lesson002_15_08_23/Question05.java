@@ -2,7 +2,7 @@ package lesson002_15_08_23;
 
 import java.util.Scanner;
 
-public class Question5 {
+public class Question05 {
 
 	public static void main(String[] args) {
 		
@@ -14,11 +14,11 @@ public class Question5 {
 		
 		kurDegeri=30.05;
 		
-		System.out.println("TL degerini giriniz:");
+		System.out.println("TL değerini giriniz:");
 		turkLirasi=scanner.nextDouble();
 		
 		dolar=turkLirasi/kurDegeri;
 		
-		System.out.println("Dolar degeri: " +dolar);		
+		System.out.println("Dolar değeri: " +dolar);		
   }
 }

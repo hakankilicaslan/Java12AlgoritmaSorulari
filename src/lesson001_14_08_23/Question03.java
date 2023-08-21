@@ -2,7 +2,7 @@ package lesson001_14_08_23;
 
 import java.util.Scanner;
 
-public class Question3 {
+public class Question03 {
 
 	public static void main(String[] args) {
 		
@@ -14,11 +14,11 @@ public class Question3 {
 		int fiyat;
 		double hamFiyat;
 		
-		System.out.println("Urun fiyatini giriniz");
+		System.out.println("Ürün fiyatını giriniz");
 		fiyat=scanner.nextInt();
 		
 		hamFiyat=fiyat/(1.18*1.15);
 		
-		System.out.println("Urunun hamfiyati: " +hamFiyat);
+		System.out.println("Ürünü hamfiyatı: " +hamFiyat);
   }
 }

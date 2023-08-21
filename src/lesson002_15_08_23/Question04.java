@@ -2,7 +2,7 @@ package lesson002_15_08_23;
 
 import java.util.Scanner;
 
-public class Question4 {
+public class Question04 {
 
 	public static void main(String[] args) {
 		
@@ -12,19 +12,19 @@ public class Question4 {
 		
 		int sayi1, sayi2;
 		
-		System.out.println("Ilk sayiyi giriniz:");
+		System.out.println("İlk sayıyı giriniz:");
 		sayi1=scanner.nextInt();
 
-		System.out.println("Ikinci sayiyi giriniz:");
+		System.out.println("İkinci sayıyı giriniz:");
 		sayi2=scanner.nextInt();
 		
 		if (sayi1>sayi2) {
-			System.out.println("Buyuk olan sayi: " + sayi1);
+			System.out.println("Büyük olan sayı: " + sayi1);
 		}else if(sayi1==sayi2){
-			System.out.println("Sayilar esittir:");
+			System.out.println("Sayılar eşittir:");
 		}
 		else {
-			System.out.println("Buyuk olan sayi: " + sayi2);
+			System.out.println("Büyük olan sayı: " + sayi2);
 		}
   }
 }

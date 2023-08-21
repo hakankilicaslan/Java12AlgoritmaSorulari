@@ -1,0 +1,9 @@
+
+16.08.23 Berkin Yardımcı
+if / else if / else örnekleri ve switch-case ile while döngüsü örnekleri çözüldü.
+switch-case koşulunda sadece switch içindeki değişkene karşılık gelen case içindeki kodları çalıştırıyor.
+Her case sonunda break komutunu eklemeliyiz yoksa switch'e karşılık gelen case içini yazdırdıktan sonra bir sonraki break komutuna kadar bütün caselere girer ve yazdırır.
+İstersek case içine birden fazla değişken girerek o değişkenlerden birini sağlıyorsa o case içine girip kodu çalıştırmasını sağlayabiliriz.
+default ise switch'e karşılık case gelmiyorsa default içindeki kodu çalıştırıyor(else koşulu gibi).
+while döngüsünde ise içine girdiğimiz şartı sağladığı sürece yani true olduğu sürece kodu tekrar yazdırmaya devam ediyor.
+Eğer şartı artık sağlamıyorsa döngüden çıkıyor.
